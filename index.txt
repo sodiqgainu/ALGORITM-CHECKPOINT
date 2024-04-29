@@ -1,0 +1,18 @@
+Initialize sentenceLength, wordCount, and vowelCount to 0
+
+Prompt the user to input a sentence ending with a period
+Read the input sentence
+
+For each character in the sentence:
+    Increment sentenceLength by 1
+
+    If the character is a letter:
+        If the character is a vowel:
+            Increment vowelCount by 1
+
+    If the character is a space:
+        Increment wordCount by 1
+
+Increment wordCount by 1 to account for the last word before the period
+
+Output sentenceLength, wordCount, and vowelCount
